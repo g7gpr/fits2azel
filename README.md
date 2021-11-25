@@ -1,8 +1,8 @@
-#fits2azel
+# fits2azel
 
 Routine to take latitude, longtitude and an RMS format fits file and return the azimuth and elevation of image.
 
-#Example 
+## Example 
 
 In this case no fits file is specified, the newest file in the directory is used.
 
