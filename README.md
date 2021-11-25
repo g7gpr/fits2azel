@@ -2,6 +2,15 @@
 
 Routine to take latitude, longtitude and an RMS format fits file and return the azimuth and elevation of image.
 
+## Installation
+
+```
+git clone https://github.com/g7gpr/fits2azel
+cd fits2azel
+sudo ./install.sh
+```
+
+
 ## Example - no fits file specified 
 
 In this case no fits file is specified, the newest file in the directory is used.
