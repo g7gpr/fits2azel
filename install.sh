@@ -1,4 +1,4 @@
-sudo apt-get install python3-pymap3d -y
+python3 -m pip install pymap3d
 sudo apt-get install astrometry.net -y
 sudo apt-get install libvips-dev -y
 sudo rm /usr/share/astrometry/*
