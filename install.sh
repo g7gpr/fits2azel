@@ -1,4 +1,5 @@
-python3 -m pip install pymap3d
+git clone https://github.com/geospace-code/pymap3d
+pip install -e pymap3d
 sudo apt-get install astrometry.net -y
 sudo apt-get install libvips-dev -y
 sudo rm /usr/share/astrometry/*
