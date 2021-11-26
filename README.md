@@ -5,6 +5,7 @@ Routine to take latitude, longtitude and an RMS format fits file and return the 
 ## Installation
 
 ```
+sudo apt-get install git -y
 git clone https://github.com/g7gpr/fits2azel
 cd fits2azel
 sudo ./install.sh
