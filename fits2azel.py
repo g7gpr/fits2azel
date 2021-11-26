@@ -2,7 +2,7 @@ from astropy.coordinates import EarthLocation,SkyCoord
 from astropy.time import Time
 from astropy import units as u
 from astropy.coordinates import AltAz
-from pymap3d import *
+import pymap3d as pm
 from datetime import datetime
 
 import subprocess
@@ -16,5 +16,5 @@ dec=float(sys.argv[4])
 obstime=(sys.argv[5])
 
 #Print out the Azimuth and Elevation
-print("(Azimuth, Elevation) = ",(radec2azel(int(ra),int(dec),lat,lon,obstime)),"degrees.")
+print("(Azimuth, Elevation) = ",(pm.radec2azel(int(ra),int(dec),lat,lon,obstime)),"degrees.")
 
