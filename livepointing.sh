@@ -8,6 +8,6 @@ obslon=$2
 while true
 do
   echo "Running at:$(date -u -Iseconds)"
-  fits2azel.sh $1 $2 $(ls *.fits | tail -n1)
-  sleep 10
+  fits2azel.sh $1 $2 $(ls *.fits | tail -n2 | head -n1)
+  sleep 3
 done
